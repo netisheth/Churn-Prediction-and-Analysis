@@ -10,5 +10,9 @@ Taking into consideration that the market is being saturated and revenue from ne
 
 - The data was then cleaned and preprocessed for analysis. The process involved tokenizing text into words, removing stop words, links, hashtags, handles mentions and words with less than three characters.
 
-![Worklflow](https://github.com/[netisheth]/[Churn-Prediction-and-Analysis]/blob/[master]/workflow.png?raw=true)
+### Workflow
+
+![Worklflow](https://github.com/netisheth/Churn-Prediction-and-Analysis/blob/master/Images/workflow.png?raw=true "Optional Title")
+
+
 
