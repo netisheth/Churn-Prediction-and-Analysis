@@ -9,3 +9,6 @@ Taking into consideration that the market is being saturated and revenue from ne
 - The corresponding dataset included a total number of 82395, 47746 and 31842 tweets respectively for AT&T, Verizon and T-Mobile, which were then categorized into a class of 2 and 3 mobile carriers such as [ ATT, T-Mobile],[ T-Mobile, Verizon],[ ATT, Verizon] and[ ATT, T-Mobile, Verizon].
 
 - The data was then cleaned and preprocessed for analysis. The process involved tokenizing text into words, removing stop words, links, hashtags, handles mentions and words with less than three characters.
+
+![Worklflow](https://github.com/[netisheth]/[Churn-Prediction-and-Analysis]/blob/[master]/workflow.png?raw=true)
+
