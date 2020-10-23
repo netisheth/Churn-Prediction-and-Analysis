@@ -14,5 +14,32 @@ Taking into consideration that the market is being saturated and revenue from ne
 
 ![Worklflow](https://github.com/netisheth/Churn-Prediction-and-Analysis/blob/master/Images/workflow.png?raw=true "Optional Title")
 
+### Exploratory Data Analysis
 
+1.	Tweets counts for each carrier and each group
 
+![Tweet Count](https://github.com/netisheth/Churn-Prediction-and-Analysis/blob/master/Images/eda1.png?raw=true "Optional Title")
+
+2. Most frequent words in each carrier
+
+![Frequent Words](https://github.com/netisheth/Churn-Prediction-and-Analysis/blob/master/Images/eda2.png?raw=true "Optional Title")
+
+![Frequent Words](https://github.com/netisheth/Churn-Prediction-and-Analysis/blob/master/Images/eda3.png?raw=true "Optional Title")
+
+3.	Counts for each carrier mentioned daily
+
+![Daily Count](https://github.com/netisheth/Churn-Prediction-and-Analysis/blob/master/Images/eda4.png?raw=true "Optional Title")
+
+4.	Sentiment polarity distribution for each carrier
+
+![Sentiment Polarity](https://github.com/netisheth/Churn-Prediction-and-Analysis/blob/master/Images/eda5.png?raw=true "Optional Title")
+
+5.	Overall sentiment polarity of each carrier
+
+![Sentiment Polarity](https://github.com/netisheth/Churn-Prediction-and-Analysis/blob/master/Images/eda6.png?raw=true "Optional Title")
+
+![Sentiment Polarity](https://github.com/netisheth/Churn-Prediction-and-Analysis/blob/master/Images/eda7.png?raw=true "Optional Title")
+
+6.	Positive vs. Negative tweets for each carrier
+
+![Sentiment Polarity](https://github.com/netisheth/Churn-Prediction-and-Analysis/blob/master/Images/eda8.png?raw=true "Optional Title")
