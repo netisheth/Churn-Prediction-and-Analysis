@@ -29,9 +29,9 @@ According to the BOW model, we got the top 5 common words of each carrier. For V
 ![Daily Count](https://github.com/netisheth/Churn-Prediction-and-Analysis/blob/master/Images/eda4.png?raw=true "Optional Title")
 
 During the time between 2019-10-09 and 2019-10-23, we can observe how the number of tweets mentioning each carrier varies. Some interesting observations are:
-●	On 2019-10-15 Tuesday, the number of tweets for TMobile is maximum, the possible reason can be t-mobile Tuesday promotional offers.
-●	On 2019-10-19, a lot of ATT users were facing network issues. That can be the reason behind the sudden rise in the number of tweets.
-●	On 2019-10-22, Verizon tweets were the maximum. They announced a free year of Disney+. The users might be comparing it with ATT offers. 
+- On 2019-10-15 Tuesday, the number of tweets for TMobile is maximum, the possible reason can be t-mobile Tuesday promotional offers.
+- On 2019-10-19, a lot of ATT users were facing network issues. That can be the reason behind the sudden rise in the number of tweets.
+- On 2019-10-22, Verizon tweets were the maximum. They announced a free year of Disney+. The users might be comparing it with ATT offers. 
 
 #### 4.	Sentiment polarity distribution for each carrier
 
