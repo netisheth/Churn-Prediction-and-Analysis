@@ -16,8 +16,6 @@ Taking into consideration that the market is being saturated and revenue from ne
 
 ![Tweet Count](https://github.com/netisheth/Churn-Prediction-and-Analysis/blob/master/Images/eda1.png?raw=true "Optional Title")
 
-<img src="https://github.com/netisheth/Churn-Prediction-and-Analysis/blob/master/Images/eda1.png" alt="alt text" width="400" height="400">
-
 ### 2. Most frequent words in each carrier
 
 ![Frequent Words](https://github.com/netisheth/Churn-Prediction-and-Analysis/blob/master/Images/eda2.png?raw=true "Optional Title")
