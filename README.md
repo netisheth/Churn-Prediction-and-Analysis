@@ -49,7 +49,7 @@ As we can see from the overall sentiments graph, ATT gets the lowest sentiment s
 
 ### 6.	Positive vs. Negative tweets for each carrier
 
-<img src="https://github.com/netisheth/Churn-Prediction-and-Analysis/blob/master/Images/eda8.png" alt="alt text" width="70%" height="70%">
+<img src="https://github.com/netisheth/Churn-Prediction-and-Analysis/blob/master/Images/eda8.png" alt="alt text" width="50%" height="50%">
 
 From the graph, we can notice that in all three carriers, as the number of tweets increases, the proportion of negative numbers also increases. Maybe users like to complain more than praise on tweets.
 
