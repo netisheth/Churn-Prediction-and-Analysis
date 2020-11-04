@@ -14,19 +14,19 @@ Taking into consideration that the market is being saturated and revenue from ne
 
 ### 1.	Tweets counts for each carrier and each group
 
-![Tweet Count](https://github.com/netisheth/Churn-Prediction-and-Analysis/blob/master/Images/eda1.png?raw=true "Optional Title")
+<img src="https://github.com/netisheth/Churn-Prediction-and-Analysis/blob/master/Images/eda1.png" alt="alt text" width="50%" height="50%">
 
 ### 2. Most frequent words in each carrier
 
-![Frequent Words](https://github.com/netisheth/Churn-Prediction-and-Analysis/blob/master/Images/eda2.png?raw=true "Optional Title")
+<img src="https://github.com/netisheth/Churn-Prediction-and-Analysis/blob/master/Images/eda2.png" alt="alt text" width="50%" height="50%">
 
-![Frequent Words](https://github.com/netisheth/Churn-Prediction-and-Analysis/blob/master/Images/eda3.png?raw=true "Optional Title")
+<img src="https://github.com/netisheth/Churn-Prediction-and-Analysis/blob/master/Images/eda3.png" alt="alt text" width="50%" height="50%">
 
 According to the BOW model, we got the top 5 common words of each carrier. For Verizon, users like to mention Disney, free service, and yearly plans in their tweets. Similarly, for TMobile and ATT, users are talking about comments, tickets, and customers.
 
 ### 3.	Counts for each carrier mentioned daily
 
-![Daily Count](https://github.com/netisheth/Churn-Prediction-and-Analysis/blob/master/Images/eda4.png?raw=true "Optional Title")
+<img src="https://github.com/netisheth/Churn-Prediction-and-Analysis/blob/master/Images/eda4.png" alt="alt text" width="50%" height="50%">
 
 During the time between 2019-10-09 and 2019-10-23, we can observe how the number of tweets mentioning each carrier varies. Some interesting observations are:
 - On 2019-10-15 Tuesday, the number of tweets for TMobile is maximum, the possible reason can be t-mobile Tuesday promotional offers.
@@ -35,21 +35,21 @@ During the time between 2019-10-09 and 2019-10-23, we can observe how the number
 
 ### 4.	Sentiment polarity distribution for each carrier
 
-![Sentiment Polarity](https://github.com/netisheth/Churn-Prediction-and-Analysis/blob/master/Images/eda5.png?raw=true "Optional Title")
+<img src="https://github.com/netisheth/Churn-Prediction-and-Analysis/blob/master/Images/eda5.png" alt="alt text" width="50%" height="50%">
 
 We can see how the sentiment varies for each tweet mentioning different carriers. It helps us to understand how many tweets were positive and negative. For example, ATT had maximum number of tweets with -0.5 polarity (negative). Most of the tweets for each carrier were positive.
 
 ### 5.	Overall sentiment polarity of each carrier
 
-![Sentiment Polarity](https://github.com/netisheth/Churn-Prediction-and-Analysis/blob/master/Images/eda6.png?raw=true "Optional Title")
+<img src="https://github.com/netisheth/Churn-Prediction-and-Analysis/blob/master/Images/eda6.png" alt="alt text" width="50%" height="50%">
 
-![Sentiment Polarity](https://github.com/netisheth/Churn-Prediction-and-Analysis/blob/master/Images/eda7.png?raw=true "Optional Title")
+<img src="https://github.com/netisheth/Churn-Prediction-and-Analysis/blob/master/Images/eda7.png" alt="alt text" width="50%" height="50%">
 
 As we can see from the overall sentiments graph, ATT gets the lowest sentiment score, and TMobile gets the highest. An interesting observation is that carrier with more tweets mentioned has less sentiment polarity score.
 
 ### 6.	Positive vs. Negative tweets for each carrier
 
-![Sentiment Polarity](https://github.com/netisheth/Churn-Prediction-and-Analysis/blob/master/Images/eda8.png?raw=true "Optional Title")
+<img src="https://github.com/netisheth/Churn-Prediction-and-Analysis/blob/master/Images/eda8.png" alt="alt text" width="50%" height="50%">
 
 From the graph, we can notice that in all three carriers, as the number of tweets increases, the proportion of negative numbers also increases. Maybe users like to complain more than praise on tweets.
 
@@ -82,7 +82,7 @@ We developed a rule-based algorithm to determine the following:
 
 ### Detecting users churn direction
 
-![Algorithm1](https://github.com/netisheth/Churn-Prediction-and-Analysis/blob/master/Images/algo1.png?raw=true "Optional Title")
+<img src="https://github.com/netisheth/Churn-Prediction-and-Analysis/blob/master/Images/algo1.png" alt="alt text" width="50%" height="50%">
 
 Consider the simple example above - ‘ATT is good and TMobile is bad. Because ATT has better service’. The reader can easily figure out that this user might want to churn from TMobile to ATT. The reason is that ATT has better service. Then, how does the machine do the semantic analysis and come to this conclusion? Our rule-based algorithm follows the following approach to help machine with it:
 
@@ -107,6 +107,6 @@ For the churning reason, there are some indicators that users often mention. The
 
 ### Summarizing churn reason
 
-![Churn Reason](https://github.com/netisheth/Churn-Prediction-and-Analysis/blob/master/Images/insight1.png?raw=true "Optional Title")
+<img src="https://github.com/netisheth/Churn-Prediction-and-Analysis/blob/master/Images/insight1.png" alt="alt text" width="50%" height="50%">
 
-When we identify the carrier that the user is unsatisfied with and extract the reasons for dissatisfaction by rule-based algorithm for each tweet, we build out three corpuses of unsatisfied reasons for each carrier. Through the analysis of these reasons corpus, we have obtained some conclusions. We can further summarize the problems of each carrier.
+When we identify the carrier that the user is unsatisfied with and extract the reasons for dissatisfaction by rule-based algorithm for each tweet, we build out three corpuses of unsatisfied reasons for each carrier. Through the analysis we can summarize the problem areas of each carrier.
